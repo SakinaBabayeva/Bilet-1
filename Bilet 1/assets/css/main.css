@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+header nav {
+  width: 85%;
+  margin: auto;
+}
+header nav .collapseDiv {
+  justify-content: end;
+}
+
+main #adoptedSection {
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-image: url(/assets/images/slider-1.jpg);
+}
+main #adoptedSection .adoptedDiv {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+main #adoptedSection .adoptedDiv .text {
+  width: 50%;
+}
+main #adoptedSection .adoptedDiv .text h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+main #adoptedSection .adoptedDiv .text h1 {
+  font-weight: 800;
+  font-size: 40px;
+}
+main #adoptedSection .adoptedDiv .text .btn {
+  background-color: indianred;
+  color: white;
+  border: 0;
+}
+main #peopleSection {
+  margin-bottom: 20px;
+}
+main #peopleSection .content .accordionDiv {
+  margin-top: 20px;
+}
+main #peopleSection .imgtext i {
+  font-size: 300px;
+}
+main #peopleSection .imgtext .btn {
+  border: 1px solid red;
+  color: red;
+}
+main #childrenSection {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+main #childrenSection .head {
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+main #childrenSection .head h1 {
+  font-size: 20px;
+}
+main #childrenSection .head .Cbtn {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin: 0px 20px;
+  border: none;
+  border: 1px solid red;
+}
+main #childrenSection .images {
+  margin-top: 20px;
+}
+main #childrenSection .images img {
+  max-width: 100%;
+  height: auto;
+}
+main #storiesSection {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+main #storiesSection .headSection {
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+main #storiesSection .headSection h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+main #storiesSection .images {
+  margin-top: 20px;
+}
+main #storiesSection .images img {
+  max-width: 100%;
+  height: auto;
+}
+main #storiesSection .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main #storiesSection .images img {
+  width: 300px;
+  height: auto;
+}
